@@ -51,6 +51,7 @@ puts message2
 
 probability = rand
 
+
 # (rand returns a decimal value between 0 and 1 if called with no arguments)
 
 if probability < 0.5

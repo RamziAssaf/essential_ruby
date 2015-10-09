@@ -22,12 +22,12 @@ z = x + y
 puts "howdy".capitalize
 puts 2 + 3
 puts 2.even?
-puts "howdy".odd?
-puts "howdy" + 2
+puts "howdy".length.odd?
+puts "howdy" + '2'
 puts "howdy".capitalize.reverse
 puts "howdy".capitalize.reverse.length
-puts "howdy".capitalize.reverse.odd?
-puts "howdy".capitalize.reverse.even?
+puts "howdy".capitalize.reverse
+puts "howdy".capitalize.reverse
 puts "howdy".capitalize.reverse.length.odd?
 puts "howdy".capitalize.reverse.length.even?
 
@@ -59,9 +59,9 @@ puts "hello".gsub ("l", "z")
 
 password = "football"
 
-if password = "hockey"
+if password == "hockey"
   puts "Welcome back!"
-elsif password = ""
+elsif password == ""
   puts "You forgot to enter a password."
 else
   puts "Nice try."
